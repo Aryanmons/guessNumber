@@ -1,0 +1,148 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  background-color: #292929;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /* Ensures content stays within the box */
+}
+
+h1 {
+  color: #f9ca24;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+#subt {
+  background-color: #ff4757;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#subt:hover {
+  background-color: #e84118;
+}
+
+#guessField {
+  color: #000;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #dcdde1;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #f5f6fa;
+}
+
+#guess {
+  font-size: 1.5rem;
+  color: #fbc531;
+  margin-bottom: 15px;
+}
+
+.resultParas {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.resultParas p {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.guesses {
+  color: #ff6b81;
+  background-color: #2f3640;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%; /* Ensures guesses stay inside the box */
+  overflow-x: auto; /* Allows horizontal scroll if guesses overflow */
+  white-space: nowrap; /* Keeps guesses in one line */
+  margin-bottom: 10px;
+}
+
+.lastResult {
+  color: #7bed9f;
+}
+
+.lowOrHi {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #eccc68;
+}
+
+button {
+  background-color: #0097e6;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00a8ff;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+nav a {
+  color: #69dc34;
+  font-size: 1rem;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4f43b9;
+}
+
+h4 {
+  position: absolute;
+  top: 20px; /* Adjust this value to control the distance from the top */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the element horizontally */
+  font-size: 1.2rem;
+  color: #fbc531;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adds a slight shadow for a nice effect */
+  margin: 0; /* Remove default margin */
+  padding: 10px;
+}
+
